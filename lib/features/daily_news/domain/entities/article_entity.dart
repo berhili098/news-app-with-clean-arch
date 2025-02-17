@@ -22,5 +22,14 @@ class ArticleEntity extends Equatable {
   });
 
   @override
-  List<Object?> get props => [id,author , title, description, url, urlToImage, publishedAt, content];
+  List<Object?> get props => [
+    id,
+    author,
+    title,
+    description,
+    url,
+    urlToImage,
+    publishedAt,
+    content,
+  ];
 }
