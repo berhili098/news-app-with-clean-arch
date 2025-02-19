@@ -2,7 +2,7 @@ import 'package:cleanarch/features/daily_news/domain/entities/article_entity.dar
 
 class ArticleModel extends ArticleEntity {
   const ArticleModel({
-    required super.id,
+    super.id,
     super.author,
     super.title,
     super.description,
